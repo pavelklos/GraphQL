@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCore-SqlServer-EF-RestApi-GraphQL", "NetCore-SqlServer-EF-RestApi-GraphQL\NetCore-SqlServer-EF-RestApi-GraphQL.csproj", "{36497109-B078-4F27-8303-4EBB32B59575}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore-SqlServer-EF-RestApi-GraphQL", "NetCore-SqlServer-EF-RestApi-GraphQL\NetCore-SqlServer-EF-RestApi-GraphQL.csproj", "{36497109-B078-4F27-8303-4EBB32B59575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLBasic", "GraphQLBasic\GraphQLBasic.csproj", "{CD241755-327D-4919-95BC-7E0F8CBB4646}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{36497109-B078-4F27-8303-4EBB32B59575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36497109-B078-4F27-8303-4EBB32B59575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36497109-B078-4F27-8303-4EBB32B59575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD241755-327D-4919-95BC-7E0F8CBB4646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD241755-327D-4919-95BC-7E0F8CBB4646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD241755-327D-4919-95BC-7E0F8CBB4646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD241755-327D-4919-95BC-7E0F8CBB4646}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
