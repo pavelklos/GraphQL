@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetCore-SqlServer-EF-RestAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLBasic", "GraphQLBasic\GraphQLBasic.csproj", "{CD241755-327D-4919-95BC-7E0F8CBB4646}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLWithEFCore", "GraphQLWithEFCore\GraphQLWithEFCore.csproj", "{72CAE732-CEA8-4F9A-AB48-83538FC002D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{CD241755-327D-4919-95BC-7E0F8CBB4646}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD241755-327D-4919-95BC-7E0F8CBB4646}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD241755-327D-4919-95BC-7E0F8CBB4646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72CAE732-CEA8-4F9A-AB48-83538FC002D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72CAE732-CEA8-4F9A-AB48-83538FC002D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72CAE732-CEA8-4F9A-AB48-83538FC002D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72CAE732-CEA8-4F9A-AB48-83538FC002D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
