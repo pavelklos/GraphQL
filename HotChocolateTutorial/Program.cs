@@ -1,10 +1,20 @@
+using HotChocolateTutorial.GraphQL;
+
 // *****************************************************************************
 var builder = WebApplication.CreateBuilder(args);
 // *****************************************************************************
 
+// [GraphQL]
+builder.Services
+    .AddGraphQLServer()
+    .AddQueryType<Query>();
+
 // *****************************************************************************
 var app = builder.Build();
 // *****************************************************************************
+
+// [GraphQL]
+app.MapGraphQL();
 
 // Minimal API
 app.MapGet("/", () => "Hello World!");
