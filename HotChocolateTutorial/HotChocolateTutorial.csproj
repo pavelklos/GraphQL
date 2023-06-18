@@ -8,6 +8,9 @@
 
   <ItemGroup>
     <PackageReference Include="HotChocolate.AspNetCore" Version="13.2.1" />
+    <PackageReference Include="HotChocolate.Types.NodaTime" Version="13.2.1" />
+    <PackageReference Include="HotChocolate.Types.Scalars" Version="13.2.1" />
+    <PackageReference Include="HotChocolate.Types.Scalars.Upload" Version="13.2.1" />
   </ItemGroup>
 
 </Project>

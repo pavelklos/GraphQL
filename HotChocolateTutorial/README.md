@@ -1,4 +1,4 @@
-﻿## Hot Chocolate  
+﻿# Hot Chocolate  
 **Introduction**  
 https://chillicream.com/docs/hotchocolate/v13  
 **Get started with GraphQL in .NET Core**  
@@ -11,7 +11,9 @@ https://github.com/ChilliCream/graphql-workshop
 **Defining a GraphQL schema**  
 https://chillicream.com/docs/hotchocolate/v13/defining-a-schema  
   
-### Introduction  
+## Get started  
+
+## Introduction  
 **Setup**  
 1. Create a new ASP.NET Core project ASP.NET Core Empty  
 2. Add the HotChocolate.AspNetCore package  
@@ -22,3 +24,23 @@ https://chillicream.com/docs/hotchocolate/v13/defining-a-schema
   
 **Executing a query**  
 **Additional resources**  
+  
+## Defining a schema  
+**Queries**  
+**Mutations**  
+Subscriptions  
+Object Types  
+Scalars  
+Arguments  
+Input Object Types  
+Lists  
+Non-Null  
+Enums  
+Interfaces  
+Unions  
+Extending Types  
+Directives  
+Documentation  
+Versioning  
+Relay  
+Dynamic Schemas  
