@@ -18,7 +18,8 @@ public class Query
     // User
     public User GetUser(int id) => _repository.Users.First(b => b.Id == id);
     public IEnumerable<User> GetUsers() => _repository.Users;
-
+    public User[] GetUsersByRole(UserRole role) =>
+        _repository.Users.Where(u => u.Role == role).ToArray();
     // Other
     public DateTime GetDateNow() => DateTime.Now; // "2023-06-12T13:21:44.096+02:00"
     public int GetRandom() => new Random().Next();

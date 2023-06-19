@@ -26,8 +26,8 @@ public class Repository
     {
         return new List<User>()
         {
-            new User { Id = 1, Name = "James" },
-            new User { Id = 2, Name = "Robert" },
+            new User { Id = 1, Name = "James", Role = UserRole.Admin },
+            new User { Id = 2, Name = "Robert", Role =UserRole.Default },
             new User { Id = 3, Name = "John" },
             new User { Id = 4, Name = "Michael" },
             new User { Id = 5, Name = "David" },
