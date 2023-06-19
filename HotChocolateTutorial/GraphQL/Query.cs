@@ -12,7 +12,7 @@ public class Query
 
     // Book-Author
     public List<Book> GetBooks() => _repository.Books;
-    public Book GetBook(int id) => _repository.Books.First(b => b.Id == id);
+    public Book GetBook(int id, bool active = true) => _repository.Books.First(b => b.Id == id);
     public Author GetAuthor() => new Author { Name = "BEST AUTHOR: Jon Skeet" };
 
     // User

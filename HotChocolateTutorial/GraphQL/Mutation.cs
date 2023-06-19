@@ -10,10 +10,26 @@ public class Mutation
         _repository = repository;
     }
 
+    // PetInput = [OneOf]
+    public Task CreatePetAsync(PetInput input)
+    {
+        // Omitted code for brevity
+        return Task.CompletedTask;
+    }
+
     // Book-Author
     //[UseMutationConvention]
     public Book AddBook(Book book)
     {
+        _repository.Books.Add(book);
+
+        return _repository.Books.First(b => b.Id == book.Id);
+    }
+
+    public Book AddBookByInput(BookInputMutable input)
+    {
+        Book book = new() { Title = input.Title, Author = input.Author };
+
         _repository.Books.Add(book);
 
         return _repository.Books.First(b => b.Id == book.Id);
